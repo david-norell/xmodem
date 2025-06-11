@@ -1,3 +1,3 @@
-
 idf_component_register(SRCS "src/XModem.cpp"
-                        INCLUDE_DIRS "src")
+                        INCLUDE_DIRS "src"
+                        REQUIRES arduino)
